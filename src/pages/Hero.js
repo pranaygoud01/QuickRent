@@ -10,18 +10,18 @@ const Hero = () => {
       <div className="h-fit w-full bg-white ">
         <div className="mt-4 h-fit grid grid-cols-2 max-lg:grid-cols-1">
           <div className=" flex items-center">
-            <div className="p-40 max-lg:p-10 max-lg:pt-20 flex gap-5 flex-col">
-              <h1 className="text-5xl font-bold leading-[50px]">
+            <div className="p-40 max-lg:p-10  flex gap-5 flex-col">
+              <h1 className="text-5xl max-lg:text-3xl font-bold leading-[50px]">
                 Your Trusted Partner for Gadget Rentals
               </h1>
-              <p className=" leading-7 text-neutral-700">
+              <p className=" leading-7 max-lg:text-sm text-neutral-700">
                 Need a gadget for a short time? QuickRent has you covered with a
                 wide variety of laptops, cameras, and gaming consoles, all at
                 affordable rates!
               </p>
               <a
                 href="#gadgets"
-                className="text-sm  font-bold px-10 py-3 w-fit bg-black text-white"
+                className="text-sm  max-lg:text-xs font-bold px-10 py-3 w-fit bg-black text-white"
               >
                 Explore Rentals
               </a>

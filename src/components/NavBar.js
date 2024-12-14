@@ -24,12 +24,12 @@ const NavBar = () => {
       path: "#contact",
     },
   ];
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     <div className="flex">
       <div className="h-[60px] w-screen  flex justify-center ">
         <div className="w-[1300px] max-lg:w-full  flex justify-between  items-center">
-          <div className="max-lg:ml-10">
+          <div className="max-lg:ml-7">
             <a href="#home">
               <h1 className="font-bold text-2xl">
                 Quick<span className="text-neutral-600">Rent</span>
@@ -38,7 +38,7 @@ const NavBar = () => {
           </div>
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden mr-10 text-3xl"
+            className="lg:hidden mr-8 text-3xl"
           >
             {open ? <IoCloseSharp /> : <IoMenuSharp />}
           </button>
@@ -66,7 +66,9 @@ const NavBar = () => {
         </div>
       </div>
       {open && (
-        <div className="h-[450px] lg:hidden w-full top-16 bg-white absolute">
+        <div
+          className={`h-[450px]  lg:hidden  w-full top-16 bg-white absolute`}
+        >
           <div className="p-10 flex flex-col gap-10">
             {Menu.map((item) => {
               return (

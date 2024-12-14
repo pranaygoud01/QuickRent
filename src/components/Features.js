@@ -29,9 +29,11 @@ const Features = () => {
   return (
     <div className="w-[1300px]  p-10 pt-20 max-lg:w-full  " id="features">
       <div className="flex justify-center">
-        <h1 className="text-3xl font-bold">Why Choose QuickRent?</h1>
+        <h1 className="text-3xl font-bold text-center">
+          Why Choose QuickRent?
+        </h1>
       </div>
-      <div className="grid grid-cols-4 max-lg:grid-cols-1 gap-10 p-10 pt-20">
+      <div className="grid grid-cols-4 max-lg:grid-cols-1 gap-10 p-10  max-lg:p-0  max-lg:pt-10 pt-20">
         {Feature.map((item) => {
           return (
             <div

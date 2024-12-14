@@ -54,16 +54,18 @@ const Gadgets = () => {
   return (
     <div className="w-[1300px] h-fit pb-10 pt-20 max-lg:w-full " id="gadgets">
       <div className="flex justify-center ">
-        <h1 className="text-4xl font-bold">Explore Our Rentals</h1>
+        <h1 className="text-4xl max-lg:text-3xl font-bold">
+          Explore Our Rentals
+        </h1>
       </div>
-      <div className="grid grid-cols-3 max-lg:grid-cols-1 gap-10 pt-16 pb-10">
+      <div className="grid grid-cols-3 max-lg:grid-cols-1 max-lg:gap-5 gap-10 pt-16 pb-10">
         {gadgets.map((gadget) => {
           return (
             <div
               key={gadget.name}
               className="h-fit hover:shadow-xl p-10  cursor-pointer"
             >
-              <div className="h-[300px]">
+              <div className="h-[300px] max-lg:h-[200px]">
                 <img
                   src={gadget.img}
                   className="h-full w-full object-cover hover:scale-95 duration-200"

@@ -6,8 +6,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaReddit } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="w-[1300px] h-[200px] max-lg:w-full max-lg:h-fit max-lg:flex-col max-lg:gap-10 max-lg:px-10 pt-10 flex justify-between">
-      <div className="w-[200px] max-lg:w-9/12">
+    <div className="w-[1300px] h-[200px] max-lg:w-full max-lg:h-fit max-lg:flex-col max-lg:gap-10 max-lg:px-5 pt-10 flex justify-between">
+      <div className="w-[200px] max-lg:w-11/12">
         <a href="home">
           {" "}
           <h1 className="font-bold text-2xl ">
@@ -48,7 +48,14 @@ const Footer = () => {
         </div>
         <div className="mt-10 max-lg:mt-5 max-lg:mb-10 text-xs ">
           <h1 className="font-sans">
-            Copyright &copy; Pranay Goud.
+            Copyright &copy;
+            <a
+              className="underline font-semibold"
+              href="https://pranayportfolio.vercel.app/about"
+            >
+              {" "}
+              Pranay Goud.
+            </a>
             <br />
             All rights are Reserved
           </h1>
