@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import headerimg from "../assets/headerimg.png";
 import Features from "../components/Features";
 import Gadgets from "../components/Gadgets";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({ duration: 200 });
+  }, []);
   return (
     <div className="w-full bg-neutral-100">
       <div className="h-fit w-full bg-white ">
@@ -21,7 +27,7 @@ const Hero = () => {
               </p>
               <a
                 href="#gadgets"
-                className="text-sm  max-lg:text-xs font-bold px-10 py-3 w-fit bg-black text-white"
+                className="text-sm max-lg:text-xs font-bold px-10 py-3 w-fit bg-black text-white  duration-200  hover:scale-105 hover:bg-neutral-900"
               >
                 Explore Rentals
               </a>
@@ -36,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center" data-aos="fade-in">
         <Features />
       </div>
       <div className="h-[500px] w-full overflow-hidden">

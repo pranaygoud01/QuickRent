@@ -50,7 +50,7 @@ const NavBar = () => {
                     <a href={item.path}>
                       <li
                         key={item.id}
-                        className="cursor-pointer text-sm hover:scale-95 duration-150 font-sans hover:bg-neutral-50 px-4 py-2"
+                        className="cursor-pointer text-sm hover:scale-105 hover:bg-neutral-100 duration-200 font-sans px-4 py-2"
                       >
                         {item.name}
                       </li>
