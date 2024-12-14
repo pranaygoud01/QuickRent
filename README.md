@@ -51,7 +51,6 @@ The app will be accessible at [https://quickrentpranay.vercel.app/](https://quic
 
 ## 🌐 Deployment
 
-If the project is deployed, include the link here:
 
 **Live Website**: [QuickRent](https://quickrentpranay.vercel.app/)
 
@@ -63,15 +62,15 @@ If the project is deployed, include the link here:
 ![Hero Section](https://i.postimg.cc/254kTsrZ/2024-12-15-04-35-57-Quick-Rent-Gadget-Rentals.png)
 
 ### 2. **Features Section**
-![Features Section](https://via.placeholder.com/1200x600.png?text=Features+Section)
+![Features Section](https://i.postimg.cc/nz2HfqsV/2024-12-15-04-36-10-Quick-Rent-Gadget-Rentals.png)
 
 ### 3. **Gadget Listing**
-![Gadget Listing](https://via.placeholder.com/1200x600.png?text=Gadget+Listing)
+![Gadget Listing](https://i.postimg.cc/d3SwLvmz/2024-12-15-04-36-22-Quick-Rent-Gadget-Rentals.png)
 
 ### 4. **Contact Form**
-![Contact Form](https://via.placeholder.com/1200x600.png?text=Contact+Form)
+![Contact Form](https://i.postimg.cc/xjs0syDt/2024-12-15-04-36-38-Quick-Rent-Gadget-Rentals.png)
 
-*(Replace the placeholders with actual screenshots of your website.)*
+
 
 ---
 
