@@ -45,7 +45,7 @@ npm install
 ```bash
 npm start
 ```
-The app will be accessible at [https://quickrentpranay.vercel.app/](https://quickrentpranay.vercel.app/).
+The app will be accessible at [https://localhost:3000/](https://localhost:3000/).
 
 ---
 
