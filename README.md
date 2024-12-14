@@ -60,7 +60,7 @@ If the project is deployed, include the link here:
 ## 📸 Screenshots
 
 ### 1. **Hero Section**
-![Hero Section](//imgur.com/a/P8txe24)
+![Hero Section](https://i.postimg.cc/254kTsrZ/2024-12-15-04-35-57-Quick-Rent-Gadget-Rentals.png)
 
 ### 2. **Features Section**
 ![Features Section](https://via.placeholder.com/1200x600.png?text=Features+Section)
