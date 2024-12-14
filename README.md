@@ -60,7 +60,7 @@ If the project is deployed, include the link here:
 ## 📸 Screenshots
 
 ### 1. **Hero Section**
-![Hero Section](https://imgur.com/a/P8txe24)
+![Hero Section](//imgur.com/a/P8txe24)
 
 ### 2. **Features Section**
 ![Features Section](https://via.placeholder.com/1200x600.png?text=Features+Section)
