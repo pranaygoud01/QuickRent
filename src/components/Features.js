@@ -38,7 +38,7 @@ const Features = () => {
           return (
             <div
               key={item.title}
-              className="px-10 py-10 bg-white hover:scale-95 cursor-pointer duration-200 shadow-lg h-[220px]"
+              className="px-10 py-10 bg-white  cursor-pointer hover:bg-neutral-50 shadow-lg h-[220px]"
             >
               <div className="flex gap-2 flex-col items-center">
                 <p className="text-4xl">{item.icon}</p>

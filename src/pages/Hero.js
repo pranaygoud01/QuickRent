@@ -12,7 +12,7 @@ const Hero = () => {
     AOS.init({ duration: 200 });
   }, []);
   return (
-    <div className="w-full bg-neutral-100">
+    <div className="w-full mt-10 bg-neutral-100">
       <div className="h-fit w-full bg-white ">
         <div className="mt-4 h-fit grid grid-cols-2 max-lg:grid-cols-1">
           <div className=" flex items-center">
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center" data-aos="fade-in">
+      <div className="flex justify-center">
         <Features />
       </div>
       <div className="h-[500px] w-full overflow-hidden">
