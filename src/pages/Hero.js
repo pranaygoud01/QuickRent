@@ -12,11 +12,11 @@ const Hero = () => {
     AOS.init({ duration: 200 });
   }, []);
   return (
-    <div className="w-full mt-10 bg-neutral-100">
-      <div className="h-fit w-full bg-white ">
+    <div className="w-full mt-10  bg-neutral-100">
+      <div className="h-fit w-full  bg-white ">
         <div className="mt-4 h-fit grid grid-cols-2 max-lg:grid-cols-1">
           <div className=" flex items-center">
-            <div className="p-40 max-lg:p-10  flex gap-5 flex-col">
+            <div className="p-40 max-lg:p-10 max-lg:mt-16  flex gap-5 flex-col">
               <h1 className="text-5xl max-lg:text-3xl font-bold leading-[50px]">
                 Your Trusted Partner for Gadget Rentals
               </h1>
